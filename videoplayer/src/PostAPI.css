@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: montserrat;
+    background-color: lightgray;
+
+}
+
+.postApi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color:#f7f7f7;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    border-radius: 10px ;
+    padding: 30px;
+    height: 350px;
+
+}
+.postApi h3{
+    color: #1098ad;
+    text-align: center;
+    border-bottom: 1px solid silver;
+    margin: 20px 0px;
+}
+.postApi form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .postApi__field{
+    position: relative;
+    border-bottom: 2px solid silver ;
+    margin: 40px 0;
+}
+.postApi__field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border:none;
+    /* background: none; */
+    outline: none;
+
+}
+
+.btnnn{
+    width: 20%;
+    height: 30px;
+    border: 1px solid;
+    background:lightgray;
+    /* background:silver; */
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.btnnn:hover{
+    background-color: #1098ad;
+    color: white;
+}

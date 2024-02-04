@@ -1,0 +1,15 @@
+ h2{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.map{
+    display: flex;
+}
+.videolist{
+    background-color: #f7f7f7;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+}
