@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    height: 8vh;
+    margin-top: 20px;
+}
+.shoppingCart{
+    /* size: 40px !important; */
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 30px !important;
+    
+    color: black !important;
+}
+h2{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+
+}

@@ -1,0 +1,32 @@
+.header{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+    padding: 20px;
+    /* border:2px solid blue; */
+}
+.header__image{
+    margin-left: 20px;
+    /* margin: 5px; */
+    height: auto;
+    object-fit: contain;
+    width: 64px;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 33px;
+    /* background-color: beige; */
+    /* height: 80px; */
+}
+.header__icon{
+    
+    margin-right: 60px;
+}
+.header__right > p{
+    margin-bottom: 0;
+}
+

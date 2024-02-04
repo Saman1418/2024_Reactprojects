@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    height: 300px;
+    margin-top: 300px;
+    
+}
+.footer__left {
+    /* flex: 0.5; */
+    position: relative;
+    width: 50%;
+    /* opacity: .5; */
+    background: url("https://www.wishaffair.com/assets/images/bg/footer-bg-left.png") 0 0/290px 230px no-repeat;
+    /* background-position-x: -60%; */
+    background-position-x: -11vw;
+    background-position-y: 14vh;
+}
+.footer__right{
+    position: relative;
+    width: 50%;
+    /* opacity: .5; */
+    background: url("https://www.wishaffair.com/assets/images/bg/rectangle-17.png") 0 0/290px 250px no-repeat;
+    background-position-x: 44vw;
+    background-position-y: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 0.5; */
+}
+.footer__image{
+    margin-left: 180px;
+    margin-top:70px;
+    height: auto;
+    object-fit: contain;
+    width: 64px;
+
+}
+.footer__left__icon{
+    margin-left: 180px;
+    margin-top: 12px;
+}
+.footer__fbIcon{
+    margin-right: 15px;
+    
+}
+.footer__right__left{
+    margin-right: 90px;
+}
+
+
